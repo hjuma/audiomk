@@ -10,8 +10,7 @@ import assemblyai as aai
 aai.settings.api_key = f"7f8ee129270041dfb0f1e0bf474d26c7"
 
 # URL of the file to transcribe
-FILE_URL = "https://github.com/AssemblyAI-Examples/audio-examples/raw/main/20230607_me_canadian_wildfires.mp3"
-
+FILE_URL = "https://github.com/hjuma/audiomk/blob/main/meeting_with_investor.mp3"
 config = aai.TranscriptionConfig(speaker_labels=True)
 
 transcriber = aai.Transcriber()
